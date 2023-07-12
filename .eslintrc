@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "plugins": [],
+  "rules": {},
+  "overrides": [
+    {
+      "files": ["packages/**/*.js"], // 패키지별 규칙을 추가할 경우
+      "rules": {
+        // 패키지별 규칙을 작성합니다.
+      }
+    }
+  ]
+}
